@@ -71,6 +71,13 @@
         <section id="subscription" class="bg-light-gray">
             <div class="container">
                 <h2 class="section-heading">Formulário de Inscrição</h2>
+                {% if messages %}
+                    {% for message in messages %}
+                        <div class="alert alert-success" role="alert">
+                            <p>{{ message }}</p>
+                        </div>
+                    {% endfor %}
+                {% endif %}
                 <form action="." method="post">
                     {% csrf_token %}
                     <div class="form-group">
