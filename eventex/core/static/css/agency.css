@@ -758,3 +758,13 @@ body {
 .white {
     color: white;
 }
+.errorlist {
+    margin-left: -36px;
+}
+.errorlist li {
+    color: #A94442;
+    list-style: outside none none;
+}
+.form-subscription .errorlist + input, .form-subscription .errorlist + input:hover, .form-subscription .errorlist + input:focus, .form-subscription .errorlist + input + input, .form-subscription .errorlist + textarea, .form-subscription .errorlist + ul, .form-subscription .errorlist + dl, .error-input input {
+    border-color: #D9534F;
+}
