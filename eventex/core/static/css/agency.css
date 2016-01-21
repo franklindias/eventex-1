@@ -562,49 +562,60 @@ section#venue {
 section#venue .section-heading {
     color: #fff
 }
-section#venue .form-group {
+section#subscription {
+    padding: 100px 0px;
+}
+section#subscription .form-group {
     margin-bottom: 25px
 }
-section#venue .form-group input,
-section#venue .form-group textarea {
+section#subscription .form-group input,
+section#subscription .form-group textarea {
     padding: 20px
 }
-section#venue .form-group input.form-control {
+section#subscription .form-group input.form-control {
     height: auto
 }
-section#venue .form-group textarea.form-control {
+section#subscription .form-group textarea.form-control {
     height: 236px
 }
-section#venue .form-control:focus {
+section#subscription .form-control:focus {
     border-color: #fed136;
     box-shadow: none
 }
-section#venue::-webkit-input-placeholder {
+section#subscription::-webkit-input-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
-section#venue:-moz-placeholder {
+section#subscription:-moz-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
-section#venue::-moz-placeholder {
+section#subscription::-moz-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
-section#venue:-ms-input-placeholder {
+section#subscription:-ms-input-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
-section#venue .text-danger {
+section#subscription .text-danger {
     color: #e74c3c
+}
+section#subscription textarea, input[type="text"], input[type="email"] {
+    display: block;
+    width: 100%;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
 .local {
     background-color: rgba(0, 0, 0, 0.71);
