@@ -7,18 +7,9 @@
     <section id="subscription" class="bg-light-gray">
         <div class="container">
             <h2 class="section-heading">Formulário de Inscrição</h2>
-            {% if messages %}
-                {% for message in messages %}
-                    <div class="alert alert-success alert-dismissible fade in" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <p>{{ message }}</p>
-                    </div>
-                {% endfor %}
-            {% endif %}
             <form action="." method="post">
                 {% csrf_token %}
+                {{ form.non_field_errors }}
                 <div class="form-subscription col-md-8">
                     <div class="form-group">
                         <label for="{{ form.name.id_for_label }}">{{ form.name.label }}</label><br/>
