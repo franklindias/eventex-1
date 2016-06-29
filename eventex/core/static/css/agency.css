@@ -768,3 +768,16 @@ body {
 .form-subscription .errorlist + input, .form-subscription .errorlist + input:hover, .form-subscription .errorlist + input:focus, .form-subscription .errorlist + input + input, .form-subscription .errorlist + textarea, .form-subscription .errorlist + ul, .form-subscription .errorlist + dl, .error-input input {
     border-color: #D9534F;
 }
+
+#speakers {
+    background-color: #FEFFBF;
+}
+
+.speakers {
+    padding-top: 60px;
+}
+
+.speakers img {
+    width: 200px;
+    border-radius: 100%;
+}
